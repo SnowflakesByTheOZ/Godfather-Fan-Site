@@ -1,0 +1,277 @@
+/* FONTS */
+
+@import url('http://fonts.cdnfonts.com/css/the-godfather');
+/**********************************************************************/
+
+
+.top-bar{
+    
+    
+    /* height: 120px; */
+    /* background: url('https://preview.redd.it/3abrbrfsj6i51.jpg?auto=webp&s=55f3808c3147545d0f7708e0e21167464f5198e0')center no-repeat ; */
+    background-size: cover;
+    background-position: 0px -550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: white;
+    
+}
+
+
+/**********************************************************************/
+/* .header{
+    position: fixed;
+} */
+
+/**********************************************************************/
+
+
+.logo{
+    /* border: 2px solid rgb(0, 255, 157); */
+    color: rgb(221, 191, 23);
+    font-family: 'The Godfather', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    
+    
+    
+                                                
+}
+
+/**********************************************************************/
+
+.vito-face-div{
+    /* border: 2px solid black; */
+    position: relative;
+    
+}
+
+
+/**********************************************************************/
+
+.logo p{
+    
+    margin-top: 0;
+    font-size: 6rem;
+    margin-bottom:100px;
+}
+
+/**********************************************************************/
+
+.vito-face{
+    /* border: 2px solid red; */
+    height: 120px;
+    /* margin-bottom: 80px; */
+    
+}
+
+
+
+/**********************************************************************/
+.speech-bubble-div{
+    /* border: 2px solid black; */
+    margin-top: 0;
+    position: absolute;
+    margin-left: 6.4rem;
+    
+}
+
+/**********************************************************************/
+
+.speech-bubble{
+    height:100px;
+    
+}
+
+/**********************************************************************/
+.right-menu-div{
+    /* border: 4px solid rgb(217, 241, 0); */
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    width: 50%;
+    
+}
+
+
+/**********************************************************************/
+.right-menu-div p{
+    /* border: 5px solid black; */
+    height: fit-content;
+    margin-right: 20px;
+    font-family: 'The Godfather', sans-serif;
+    font-size: 3rem;
+    margin-top: 10px;
+    
+}
+/**********************************************************************/
+.unordered-list {
+    /* border: 2px solid rgb(136, 255, 0); */
+    list-style: none;
+    height: fit-content;
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'The Godfather', sans-serif;
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+
+/**********************************************************************/
+
+.unordered-list li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/**********************************************************************/
+.unordered-list li:hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+/**********************************************************************/
+.one{
+    /* border: 2px solid rgb(209, 255, 5); */
+    color: rgb(0, 0, 0);
+    position: relative; 
+    cursor: pointer;
+    
+}
+
+
+/**********************************************************************/
+.subgroup {
+    border: 2px solid rgba(59, 58, 58, 0.308);
+    border-radius: 10px;
+    position: absolute;
+    padding-left: 0;
+    width: 20rem;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.384);
+    
+}
+
+/**********************************************************************/
+.subgroup li{
+    font-family: 'The Godfather', sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    
+    
+}
+
+/**********************************************************************/
+.subgroup li a{
+    text-decoration: none;
+    color: rgba(5, 5, 5, 0.651);
+    
+}
+/**********************************************************************/
+.subgroup li a:hover{
+    color: red;
+}
+
+
+
+/**********************************************************************/
+.reviews-div{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    position: relative;
+    
+}
+
+/**********************************************************************/
+
+.one{
+    position: relative;
+
+
+}
+
+/**********************************************************************/
+.one:hover > .subgroup {
+    display: block;
+}
+
+/**********************************************************************/
+.post-area{
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid rgb(0, 0, 0); */
+    width: max-content;
+    
+    height: max-content;
+}
+
+/**********************************************************************/
+.post{
+    
+    display: flex;
+    flex-direction: row;
+    border: 3px solid rgb(116, 112, 112);
+}
+
+/**********************************************************************/
+.post-photo-div{
+    /* border: 2px solid red; */
+    
+}
+/**********************************************************************/
+.post-photo-div img{
+    width: 400px;
+}
+
+/**********************************************************************/
+.post-info-div{
+    font-family: 'The Godfather', sans-serif;
+    font-size: 2.7rem;
+    /* border: 2px solid black; */
+    margin-left: 5rem;
+}
+/**********************************************************************/
+.preview{
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+/**********************************************************************/
+.post-title{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+/**********************************************************************/
+.post-title:hover{
+    transition: 0.4s;
+    color: red;
+}
+
+/**********************************************************************/
+.article-image{
+    width: 700px;
+    height: 500px;
+}
+
+/**********************************************************************/
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+/* **********************************************************************/ 
+.fixed{
+    position: sticky;
+    top: 0;
+}
