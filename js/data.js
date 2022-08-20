@@ -1,10 +1,11 @@
+// import {wtf}  from "./preview.js"
 
 export default{
     posts : [
         {
             image:'/images/post-images/post-image-1.jpg', 
             post_title: 'Remembering Mario Puzo', 
-            post_preview:'Preview text here', 
+            post_preview: `dd`,
             article: '/pages/remembering-puzo.html'
             
         }, 
